@@ -118,3 +118,10 @@ for(var i = 0; i < sidebar.length; i++){ sidebar[i].remove() };
 PART 2
 
 Question 1:
+
+var timetravel = document.getElementsByClassName('bar-default');
+
+for(var i = 0; i < timetravel.length; i++){ timetravel[i].remove() };
+
+
+------------------------------------------------------------
