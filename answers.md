@@ -125,3 +125,15 @@ for(var i = 0; i < timetravel.length; i++){ timetravel[i].remove() };
 
 
 ------------------------------------------------------------
+
+Question 2:
+
+var pikachu = document.querySelector('#right-image');
+pikachu.appendChild(pikachu.cloneNode(true));
+
+------------------------------------------------------------
+
+Question 3:
+
+for (var i = 0; i < 1; i++) { pikachu.appendChild(pikachu.cloneNode(true)); }
+<div class=​"portfolio-image" id=​"right-image">​…​</div>​
